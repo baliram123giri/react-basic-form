@@ -1,10 +1,12 @@
 import React from 'react'
 
-export const Heading = (props) => {
+export const Heading = ({ count, name }) => {
+
     return (
         <div>
             Counter
-            <h1>{props.count}</h1>
+            <h1>{count}</h1>
+            {name}
         </div>
     )
 }

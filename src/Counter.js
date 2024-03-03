@@ -26,9 +26,9 @@ const Counter = () => {
         } else if (count > 0) {
             setCount(count - 1)
         }
-
     }
 
+    // const props1 = {count:5, name:"baliram"}
     return (
         <div className='w-25  m-auto d-flex align-items-center justify-content-center' style={{ height: "100vh" }}>
             <div className='bg-light shadow-sm border p-5 text-center'>

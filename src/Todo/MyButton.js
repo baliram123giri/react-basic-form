@@ -6,6 +6,10 @@ export const MyButton = (props) => {
             return (
                 <button style={{ color: "#6CD1D2", fontSize: 14, border: "1px solid #6CD1D2" }} className=' rounded-pill px-3'>{props.title}</button>
             )
+        case "green":
+            return (
+                <button style={{ color: "green", fontSize: 14, border: "1px solid green" }} className=' rounded-pill px-3'>{props.title}</button>
+            )
         case "warning-light":
             return (
                 <button style={{ color: "#FF9900", fontSize: 14, border: "1px solid #FF9900" }} className=' rounded-pill px-3'>{props.title}</button>

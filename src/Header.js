@@ -41,6 +41,9 @@ export const Header = () => {
                             <li className="nav-item">
                                 <Link to={"/beta/OK/Good"} className="nav-link text-white"><TbBeta /></Link>
                             </li>
+                            <li className="nav-item">
+                                <Link to={"/users"} className="nav-link text-white">Users</Link>
+                            </li>
                         </ul>
                     </div>
                     <button onClick={redirectLogin} className='btn btn-outline-light'>Login</button>

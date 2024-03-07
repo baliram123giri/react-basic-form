@@ -12,6 +12,7 @@ import { Login } from './routers/Login';
 import TodoMain from './Todo/TodoMain';
 import { Instagram } from './routers/Instagram';
 import { Beta } from './routers/Beta';
+import { Users } from './routers/Users';
 
 
 function App() {
@@ -58,6 +59,10 @@ function App() {
   {
     path: '/beta/:city?/:name?',
     element: <Beta />
+  },
+  {
+    path: '/users',
+    element: <Users />
   },
   ]
   return <>
